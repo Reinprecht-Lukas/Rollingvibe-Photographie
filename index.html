@@ -13,13 +13,14 @@
     <nav>
       <a href="#home">Home</a>
       <a href="#portfolio">Portfolio</a>
+      <a href="#about">Über mich</a>
       <a href="#kontakt">Kontakt</a>
     </nav>
   </header>
 
   <section id="home" class="section">
-    <h2>Über mich</h2>
-    <p>Hi! Ich bin leidenschaftlicher Fotograf und teile hier meine Lieblingswerke.</p>
+    <h2>Startseite</h2>
+    <p>Schön, dass du da bist! Hier findest du eine Auswahl meiner fotografischen Arbeiten.</p>
   </section>
 
   <section id="portfolio" class="section">
@@ -32,9 +33,24 @@
     </div>
   </section>
 
+  <section id="about" class="section about">
+    <h2>Über mich</h2>
+    <div class="about-content">
+      <img src="https://via.placeholder.com/200" alt="Mein Profilbild">
+      <p>Hi, ich bin [Dein Name], Fotograf mit Leidenschaft für natürliche Momente und besondere Stimmungen.  
+         Mit meiner Kamera erzähle ich Geschichten – authentisch und zeitlos.  
+         Lass dich von meinen Arbeiten inspirieren!</p>
+    </div>
+  </section>
+
   <section id="kontakt" class="section">
     <h2>Kontakt</h2>
-    <p>Schreib mir eine <a href="mailto:deinemail@example.com">E-Mail</a>!</p>
+    <form action="mailto:deinemail@example.com" method="post" enctype="text/plain">
+      <input type="text" name="Name" placeholder="Dein Name" required>
+      <input type="email" name="Email" placeholder="Deine E-Mail" required>
+      <textarea name="Nachricht" rows="5" placeholder="Deine Nachricht" required></textarea>
+      <button type="submit">Nachricht senden</button>
+    </form>
   </section>
 
   <footer>
